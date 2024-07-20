@@ -257,9 +257,7 @@ class Excel_Process:
 
             try:
                 print("[+]写入周表")
-                print(self.week_sheet.max_row)
                 week_max_row = self.week_sheet.max_row - 16
-                print(week_max_row)
                 # 重置表格
                 if week_max_row != 4:
                     while week_max_row > 4:
@@ -284,11 +282,8 @@ class Excel_Process:
                 # 定义要应用边框的范围
                 start_row = 4
                 end_row = self.week_sheet.max_row - 17
-                print(end_row)
                 start_col = 1
                 end_col = self.week_sheet.max_column -9
-                print(end_col)
-
                 # 应用边框到指定范围的每个单元格
                 for row in self.week_sheet.iter_rows(min_row=start_row, max_row=end_row, min_col=start_col, max_col=end_col):
                     for cell in row:
