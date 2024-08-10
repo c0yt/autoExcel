@@ -14,3 +14,10 @@
 **配置教程**
 - Python配置参考链接：http://t.csdnimg.cn/yZClm
 - MinGW64配置参考链接: https://cloud.tencent.com/developer/article/2417874
+
+**启动教程**
+
+```python
+pip install -r requirements.txt
+python main.py
+```
