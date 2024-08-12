@@ -54,10 +54,10 @@ class Excel_Process:
 //             佛祖保佑       永不宕机      永无BUG               //
 //                                                                //
 //@Author null-sky                                                //
-//@Date 2023/7/20                                                 //
+//@Date 2024/7/20                                                 //
 //@GitHub https://github.com/c0yt                                 //
-//@version 6.0                                                    //
-//@Name Zlb_Auto_Excel                                            //
+//@version 7.0                                                    //
+//@Name Auto_Excel                                            //
 ////////////////////////////////////////////////////////////////////
 """
         print(f"{GREEN}{pattern}{RESET}")
