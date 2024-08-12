@@ -24,3 +24,7 @@ pip install -r requirements.txt
 ```
 运行 -> 初始化.bat
 ```
+- 方法三
+```
+运行 -> debug.bat or autoExcel.exe
+```
