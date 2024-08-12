@@ -16,8 +16,9 @@
 - MinGW64配置参考链接: https://cloud.tencent.com/developer/article/2417874
 
 **启动教程**
-
+- 方法一
 ```python
 pip install -r requirements.txt
-python main.py
 ```
+- 方法二
+-- 运行初始化.bat
