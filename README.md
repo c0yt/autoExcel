@@ -21,4 +21,6 @@
 pip install -r requirements.txt
 ```
 - 方法二
--- 运行初始化.bat
+```
+运行 -> 初始化.bat
+```
